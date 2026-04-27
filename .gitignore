@@ -1,0 +1,16 @@
+# Environment variables and secrets (NEVER commit these)
+.env
+*.local
+
+# Dependencies (installable via package managers)
+node_modules/
+__pycache__/
+venv/
+.venv/
+
+# Build and output folders
+dist/
+build/
+out/
+*.log
+
